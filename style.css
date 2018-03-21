@@ -1,0 +1,42 @@
+﻿* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div.header-div, div.content-div, div.footer-div {
+    width: 100%;
+}
+
+div.header-div {
+    height: 10%;
+    background-color: #fca;
+}
+
+div.footer-div {
+    height: 3%;
+    background-color: #cfa;
+    text-align: right;
+}
+
+div.content-div {
+    height: 87%;
+    overflow: auto;
+}
+
+td {
+overflow: hidden;
+white-space: nowrap;
+}
